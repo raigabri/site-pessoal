@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minha Página</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+<h1>Bem-vindo ao meu site!</h1>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Sobre</a></li>
+<li><a href="#">Contato</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section>
+<h2>Sobre</h2>
+<p>Está é a minha página pessoal base em desenvolvimento em HTML</p>
+</section>
+
+<h2>Serviços</h2>
+<ul>
+<li>Desenvolvimento web</li>
+<li>Programação orientada a objetos</li>
+<li>Data Science</li>
+</ul>
+</section>
+<h2>Contato</h2>
+<ul>
+<li>Nome:</li> <textarea></textarea>
+<li>e-mail:</li> <textarea></textarea>
+<li>Mensagem:</li><textarea></textarea>
+</ul>
+</footer>
+<p>&COPY;2024 Meu site.Todos direitos reservados</p>
+<section>
+</body>
+</html>
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color:white;
+color:black;
+
+}
+ul{
+list-style-type: none;
+
+}
+
+header {
+background-color:white;
+color: black;
+padding: 10px 0;
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin-right: 10px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+footer {
+background-color: white;
+color:black;
+text-align: center;
+padding: 10px 0;
+margin-top: 20px;
+}
+
+.container {
+max-width: 1100px;
+margin: auto;
+overflow: hidden;
+}
+
+h1{
+color:white;
+margin-bottom: 20px;
+}
+
+h2 {
+color: black;
+margin-bottom: 20px;
+}
+
+p {
+
+margin-bottom: 30px;
+}
